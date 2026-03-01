@@ -1,58 +1,91 @@
-# Hi, I'm Akal 👋
+# Akal Al-Maliky
 
-**Backend Engineer** | **Automation Specialist** | **Python Developer**
+**Backend Engineer** — Python · FastAPI · Distributed Systems
 
-I build scalable backend systems, robust APIs, and automation tools that solve real problems. I care about clean architecture, comprehensive testing, and production-ready code.
+I design and build production-grade backend systems: reliable APIs, async job pipelines, and data-intensive services that scale. My focus is on correctness, observability, and maintainability — code that works at 3am without intervention.
 
----
-
-## 🛠 Tech Stack
-
-**Languages:** Python 3.11+  
-**Backend:** FastAPI, SQLAlchemy, Pydantic, Alembic  
-**Async & Jobs:** asyncio, Redis, Celery  
-**CLI Tools:** Typer, Click, Rich  
-**Testing:** pytest, unittest, coverage  
-**DevOps:** Docker, Docker Compose, GitHub Actions  
-**Databases:** PostgreSQL, Redis  
-**Tools:** Git, pre-commit, Ruff, Black, mypy
+Based in Dearborn, MI. Open to remote roles and contract work.
 
 ---
 
-## 📌 Featured Projects
+## Tech Stack
+
+| Layer | Tools |
+|---|---|
+| **Languages** | Python 3.11+ |
+| **Frameworks** | FastAPI, SQLAlchemy, Pydantic v2, Alembic |
+| **Async / Jobs** | asyncio, Celery, Redis, ARQ |
+| **Databases** | PostgreSQL, Redis |
+| **Testing** | pytest, pytest-asyncio, factory-boy, coverage, Hypothesis |
+| **CI / CD** | GitHub Actions, pre-commit, Docker, Docker Compose |
+| **Code Quality** | Ruff, Black, mypy (strict), Bandit |
+| **CLI** | Typer, Click, Rich |
+
+---
+
+## Featured Projects
 
 ### [task-management-api](https://github.com/akalmaliky-spec/task-management-api)
-Production-grade FastAPI backend with JWT auth, PostgreSQL, Alembic migrations, and full test coverage.
+Production-grade REST API built with FastAPI, PostgreSQL, and Alembic. Implements JWT authentication with refresh token rotation, role-based access control, and full async request handling. Test coverage enforced via CI.
+
+**Stack:** FastAPI · PostgreSQL · Alembic · pytest · Docker · GitHub Actions
+
+---
 
 ### [async-job-runner](https://github.com/akalmaliky-spec/async-job-runner)
-Async background job processing service with Redis, retry logic, logging, and Docker support.
+Async background job processing engine using Redis and Celery. Features configurable retry logic with exponential backoff, structured logging, dead-letter queuing, and Prometheus-compatible metrics exposure.
+
+**Stack:** Python · Celery · Redis · Docker · pytest
+
+---
 
 ### [repo-audit-cli](https://github.com/akalmaliky-spec/repo-audit-cli)
-CLI tool that audits Git repositories for missing documentation, tests, CI, and best practices.
+CLI tool for auditing Git repositories against engineering best-practice checklists: missing CI configs, absent test directories, undocumented public APIs, and security anti-patterns. Outputs structured JSON or human-readable reports.
+
+**Stack:** Python · Typer · Rich · pytest · GitHub Actions
+
+---
 
 ### [python-solution-starter](https://github.com/akalmaliky-spec/python-solution-starter)
-Professional Python CLI template with modern packaging, testing, and CI/CD pipeline.
+Opinionated Python project template with modern packaging (pyproject.toml), pre-commit hooks, strict mypy, Ruff linting, and a complete GitHub Actions CI pipeline out of the box.
+
+**Stack:** Python · pyproject.toml · GitHub Actions · Ruff · mypy
+
+---
 
 ### [system-design-notes](https://github.com/akalmaliky-spec/system-design-notes)
-Senior-level documentation covering scalable system design patterns, caching, auth, and architecture.
+Engineering reference covering distributed systems patterns: caching strategies, API gateway design, auth flows, database sharding, rate limiting, and async architecture trade-offs. Written for senior-level review.
 
 ---
 
-## 💡 Engineering Principles
+## Engineering Principles
 
-- **Clean architecture first** — readable, maintainable, testable code
-- **Production-ready standards** — proper error handling, logging, security
-- **Comprehensive testing** — unit tests, integration tests, CI validation
-- **Documentation matters** — clear READMEs, inline docs, architecture notes
-- **CI/CD everything** — automated linting, testing, and deployment pipelines
+- **Explicit over implicit** — code should communicate intent without requiring context
+- **Fail fast, fail loudly** — proper error boundaries, structured logging, no silent failures
+- **Test the behavior, not the implementation** — integration tests over brittle unit mocks
+- **Security is a first-class concern** — input validation, least privilege, secrets management
+- **Observability by default** — structured logs, health endpoints, metrics from day one
+- **Automate the gatekeeping** — linting, type checks, and security scans run in CI, not in review
 
 ---
 
-## 📫 Contact
+## CI / Quality Signals
 
-- **Email:** akalmaliky@example.com
-- **LinkedIn:** [linkedin.com/in/akalmaliky](https://linkedin.com/in/akalmaliky)
-- **Location:** Dearborn, Michigan, US
+Every project in this profile enforces:
+
+- `mypy --strict` type checking
+- `ruff` + `black` formatting on commit via pre-commit
+- `bandit` security linting
+- `pytest` with coverage thresholds in GitHub Actions
+- Branch protection with required status checks
+
+---
+
+## Contact
+
+**Email:** akalmaliky@example.com  
+**LinkedIn:** [linkedin.com/in/akalmaliky](https://linkedin.com/in/akalmaliky)  
+**Location:** Dearborn, Michigan — Remote-friendly
 
 ---
 
@@ -61,3 +94,5 @@ Senior-level documentation covering scalable system design patterns, caching, au
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white)
+![mypy](https://img.shields.io/badge/mypy-strict-success)
+![Ruff](https://img.shields.io/badge/Ruff-enabled-orange)
