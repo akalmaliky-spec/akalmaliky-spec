@@ -3,7 +3,7 @@
 Backend Engineer focused on Python services, clean repo hygiene, and automation-friendly workflows.
 
 ## What I build
-- Backend service scaffolds and APIs with repeatable setup and clear structure
+- Backend APIs and service scaffolds with repeatable setup and clear structure
 - Containerized dev environments where present (Docker / Docker Compose)
 - CI-first workflows (GitHub Actions) to keep changes testable and reviewable
 
@@ -18,17 +18,17 @@ My standard approach favors automation and clarity. When configured in a repo, y
 
 ### task-management-api
 https://github.com/akalmaliky-spec/task-management-api  
-Task management backend repository with CI workflow and a test folder plus an API scaffold.  
-Stack: Python · GitHub Actions · tests
+FastAPI backend with documented Docker support and a clear project structure for auth/users/tasks.  
+Stack: Python · FastAPI · Docker · GitHub Actions
 
 ### detroit-family-home-care-api
 https://github.com/akalmaliky-spec/detroit-family-home-care-api  
-Detroit Family Home Care backend scaffold with containerization and security documentation.  
-Stack: Python · Docker · Docker Compose · GitHub Actions · Security docs
+DFHC FastAPI backend scaffold with security posture docs (SECURITY.md + branch protection/security notes docs).  
+Stack: Python · FastAPI · Docker · GitHub Actions · Security docs
 
 ### python-solution-starter
 https://github.com/akalmaliky-spec/python-solution-starter  
-Minimal Python starter kit for coding solutions with a simple, workflow-friendly structure.  
+Minimal Python starter kit for coding challenges with `requirements.txt` and `setup.py` (Python 3.7+).  
 Stack: Python · requirements.txt · setup.py
 
 ## Links
