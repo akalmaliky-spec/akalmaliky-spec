@@ -1,8 +1,9 @@
 ## Featured Projects (Public)
+
 ### ✅ [task-management-api](https://github.com/akalmaliky-spec/task-management-api)
-FastAPI backend with a **Verified Green CI pipeline** (Pytest & Ruff), documented Docker support, and automated PR templates.
-**Stack:** Python · FastAPI · Docker · GitHub Actions
+FastAPI backend with CI workflows (pytest + ruff), Docker support, and a growing test suite.
+**Stack:** Python · FastAPI · Docker · GitHub Actions · tests
 
 ### 🛡️ [detroit-family-home-care-api](https://github.com/akalmaliky-spec/detroit-family-home-care-api)
-**Security-first** FastAPI scaffold featuring comprehensive threat modeling and automated dependency management (Dependabot).
+Security-first FastAPI scaffold with SECURITY policy and Dockerized local setup.
 **Stack:** Python · FastAPI · Docker · Security Docs
