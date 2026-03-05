@@ -1,4 +1,4 @@
-# Akal Al-Maliky
+# Akram Al-Maliky
 
 **Backend Engineer** — Python · FastAPI · Distributed Systems
 
@@ -84,7 +84,7 @@ Every project in this profile enforces:
 ## Contact
 
 **Email:** almaliky@umich.edu  
-**LinkedIn:** [linkedin.com/in/akalmaliky](https://linkedin.com/in/akalmaliky)  
+**LinkedIn:** www.linkedin.com/in/akram-almaliky-2458023ab
 **Location:** Dearborn, Michigan — Remote-friendly
 
 ---
