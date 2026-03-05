@@ -83,7 +83,7 @@ Every project in this profile enforces:
 
 ## Contact
 
-**Email:** akalmaliky@example.com  
+**Email:** almaliky@umich.edu  
 **LinkedIn:** [linkedin.com/in/akalmaliky](https://linkedin.com/in/akalmaliky)  
 **Location:** Dearborn, Michigan — Remote-friendly
 
